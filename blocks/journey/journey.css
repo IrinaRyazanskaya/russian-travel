@@ -10,7 +10,7 @@
 }
 
 .journey:hover > .journey__overlay {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1200px) {

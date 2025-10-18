@@ -8,5 +8,4 @@
 - CSS
 - БЭМ
 
-**Ссылка на проект** 
-https://irinaryazanskaya.github.io/russian-travel-bootcamp/
+**Ссылка на проект** https://irinaryazanskaya.github.io/russian-travel-bootcamp/

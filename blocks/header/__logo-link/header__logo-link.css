@@ -1,8 +1,8 @@
 .header__logo-link {
   text-decoration: none;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .header__logo-link:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
