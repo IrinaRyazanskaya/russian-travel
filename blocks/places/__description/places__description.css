@@ -8,7 +8,7 @@
   margin-top: 26px;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (width <= 970px) {
   .places__description {
     font-size: 16px;
     line-height: 26px;

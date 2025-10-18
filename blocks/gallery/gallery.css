@@ -2,11 +2,12 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+
   max-width: 1184px;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (width <= 1240px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
@@ -14,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (width <= 960px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
@@ -22,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (width <= 767px) {
   .gallery {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
@@ -30,7 +31,7 @@
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (width <= 370px) {
   .gallery {
     gap: 12px;
     max-width: 288px;

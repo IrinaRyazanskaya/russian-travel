@@ -1,10 +1,9 @@
 .places__place-card {
   display: grid;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: repeat(2, fit-content(460px));
-  grid-template-areas:
-    "title link"
-    "image description";
+  grid-template:
+    "title link" fit-content(460px)
+    "image description" fit-content(460px)
+    / 460px 484px;
   gap: 48px 40px;
 }
 
@@ -12,14 +11,14 @@
   margin-top: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (width <= 1024px) {
   .places__place-card {
     grid-template-columns: 440px 456px;
     gap: 48px 38px;
   }
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (width <= 970px) {
   .places__place-card {
     grid-template-columns: 340px 352px;
     gap: 48px 28px;
@@ -30,15 +29,14 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (width <= 750px) {
   .places__place-card {
-    grid-template-columns: 340px;
-    grid-template-rows: repeat(4, fit-content(1000px));
-    grid-template-areas:
-      "title"
-      "link"
-      "image"
-      "description";
+    grid-template:
+      "title" fit-content(1000px)
+      "link" fit-content(1000px)
+      "image" fit-content(1000px)
+      "description" fit-content(1000px)
+      / 340px;
     gap: 32px;
   }
 
@@ -47,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (width <= 365px) {
   .places__place-card {
     grid-template-columns: 320px;
     justify-items: center;

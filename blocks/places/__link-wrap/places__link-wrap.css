@@ -1,11 +1,11 @@
 .places__link-wrap {
   display: flex;
-  flex-direction: column;
   grid-area: link;
+  flex-direction: column;
   align-self: end;
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (width <= 365px) {
   .places__link-wrap {
     width: 288px;
   }
