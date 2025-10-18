@@ -156,19 +156,19 @@ template, [hidden] {
 @font-face {
   font-family: Inter;
   font-weight: 400;
-  src: url("./inter-regular.woff2") format("woff2"), url("./inter-regular.woff") format("woff");
+  src: url("../vendor/fonts/inter-regular.woff2") format("woff2"), url("../vendor/fonts/inter-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 700;
-  src: url("./inter-bold.woff2") format("woff2"), url("./inter-bold.woff") format("woff");
+  src: url("../vendor/fonts/inter-bold.woff2") format("woff2"), url("../vendor/fonts/inter-bold.woff") format("woff");
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 900;
-  src: url("./inter-black.woff2") format("woff2"), url("./inter-black.woff") format("woff");
+  src: url("../vendor/fonts/inter-black.woff2") format("woff2"), url("../vendor/fonts/inter-black.woff") format("woff");
 }
 
 .root {
@@ -769,7 +769,7 @@ template, [hidden] {
 }
 
 .journey {
-  background-image: url("../../images/trains.png");
+  background-image: url("../images/trains.png");
   background-size: cover;
   align-items: center;
   width: 1184px;
