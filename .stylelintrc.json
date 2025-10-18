@@ -1,5 +1,6 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-config-clean-order"],
+  "ignoreFiles": ["pages/*.bundle.css"],
   "rules": {
     "selector-class-pattern": null
   }

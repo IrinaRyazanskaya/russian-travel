@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build": "lightningcss --bundle pages/index.css -o pages/index.bundle.css",
     "serve": "serve .",
     "format": "prettier --write .",
     "lint": "npm run lint:styles",
@@ -11,6 +12,7 @@
     "lint-fix:styles": "stylelint --fix '**/*.css'"
   },
   "devDependencies": {
+    "lightningcss-cli": "^1.0.0",
     "prettier": "^3.0.0",
     "serve": "^14.0.0",
     "stylelint": "^16.0.0",
